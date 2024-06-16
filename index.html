@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <script src="main.js"></script>
+    <title>jay's timeline</title>
+</head>
+<body>
+        <header>
+            <!-- <h1>jay's timeline</h1>  -->
+            <input type="checkbox" id="switch"/>
+            <label for="switch">
+            <img src="assets/sun.svg" alt="">
+            <img src="assets/moon.svg" alt="">
+        </label> 
+        </header>
+    
+        <main> 
+            <div class="desc">
+                <h1><strong>brag book.</strong></h1>
+                <br> yoo folks. <br>
+                
+                <br> welcome to my brag book.
+                sometimes I loose sight of some small accomplishments I've had and some little wins, and do feel like I ain't doing enough. <br>
+                <br> so this is basically where I can outline all my little wins, big or small, serious or fun and see if it helps keep my sanity in tight. lol. <br>
+                <br> visit here if you want to know what i've been up to... judgment-free. 😉<br>
+                
+                might as well turn this to a reality blog, or DITL who knows? <br>
+                
+                <br>stay lit, <br>
+                jay✌🏾
+                
+            </div>
+            <br>
+           <!-- first record-->  
+            <div class="year">15.06.24</div>
+            <div class="tree">
+                my birthday
+            </div>
+            <div class="info">
+                <img src="assets/zap.svg" alt="" srcset="">
+                i celebrated my birthday on june 15, and made myself a full grill chicken. lmao
+            </div>
+
+            <!-- second record-->
+            <div class="year">2005</div>
+            <div class="tree">
+                a random month
+            </div>
+            <div class="info">
+                <img src="assets/zap.svg" alt="" srcset="">
+                the one known as cyberGenie was born. to cause trouble, of course. a robot vs. alien invasion advocate. she still remains your favorite neighbourhood genie.
+            </div>
+
+
+        </main>
+    <script>
+        const switchTheme = document.querySelector("#switch");
+        switchTheme.addEventListener("click", function () {
+        document.body.classList.toggle("dark-mode");
+        });
+    </script>
+</body>
+</html>
